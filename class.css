@@ -1,0 +1,18 @@
+.first{
+    background-color: blueviolet;
+    color: azure;
+    font-style: inherit;
+}
+.second{
+    background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+#best{
+    background-color: olive;
+    color:wheat;
+    font-style: initial;
+    text-align: center;
+    padding: 40px;
+}

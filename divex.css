@@ -1,0 +1,65 @@
+.sticky-note{
+    background-color:#ffeb3b ;
+    width:150px;
+    height:150px;
+    padding:20px;
+    margin: 20px;
+    box-shadow: 5px 5px 100px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #e1d033;
+}
+.profile-circle{
+    width:100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    outline: 2px solid #e74c3c;
+}
+.magic-button{
+    background-color: #3498dd;
+    color:white;
+    padding:15px 30px;
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition:0.3s;
+}
+.magic-button:hover{
+    background-color: #298029;
+    transform:scale(1.1);
+    letter-spacing: 2px;
+}
+.chat-bubble{
+    background-color: #e8f5e9;
+    border: 2px solid #2e7032;
+    padding:15px;
+    width:200px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    font-family: sans-serif;
+    margin: 20px;
+    box-shadow: 4px 4px 0px #2e7032;
+}
+.progress-container{
+    width: 300px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+.progress-bar{
+    width: 75%;
+    height: 30px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}

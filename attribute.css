@@ -1,0 +1,25 @@
+input[type="text"]:focus
+{
+   background-color: pink;
+   color:black;
+   border-width:5px ;
+   border-color: rgb(7, 2, 12);
+}
+a[href="https://www.flipkart.com/"]{
+    background-color:wheat;
+    color: blue;
+    font-size: xx-large;
+    font-style: italic;
+}
+a[href="https://www.amazon.in/"]{
+    background-color:aquamarine;
+    color: purple;
+    font-size: xx-large;
+    font-style: italic;
+}
+a[href="https://www.meesho.com/"]{
+    background-color:blanchedalmond ;
+    color: maroon;
+    font-size: xx-large;
+    font-style: italic;
+}

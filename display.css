@@ -1,0 +1,16 @@
+h1{
+    background-color: wheat;
+    color:rosybrown;
+    display: inline;
+}
+a{
+    background-color: darkkhaki;
+    color:firebrick;
+    font-size: xx-large;
+    display: block;
+}
+ul{
+    background-color: gold;
+    color: hotpink;
+    display: inline-block;
+}
