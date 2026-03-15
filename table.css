@@ -1,0 +1,21 @@
+body{
+    text-align:left;
+}
+h1{
+    color:green;
+}
+table.one{
+    width:80px;
+    border-collapse:seperate;
+    table-layout:auto;
+}
+table.two{
+    width:80px;
+    border-collapse: 10px;
+    border-spacing:10px;
+    table-layout: fixed;
+}
+table,td,th{
+    border:1.5px solid blue;
+    width:80px;
+}
