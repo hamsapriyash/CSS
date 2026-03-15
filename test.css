@@ -1,29 +1,17 @@
-body{
-margin:0;
+.loading{
+    width:6rem;
+    height:6rem;
+    border:3px solid #ccc;
+    border-radius:50%;
+    border-top-color:#645cff;
+    animation: spinner 0.6s linear infinite;
+    margin:3rem auto;
 }
-
-.middle{
-display:flex;
-flex:1;
-}
-
-nav{
-background:red;
-width:200px;
-}
-
-main{
-background:green;
-flex:1;
-}
-
-header,footer{
-background:yellow;
-text-align:center;
-padding:20px;
-}
-.wrapper{
-display:flex;
-flex-direction:column;
-height:100vh;
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

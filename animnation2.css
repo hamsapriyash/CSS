@@ -1,0 +1,61 @@
+.flow{
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function:ease;
+    text-align: center;
+}
+@keyframes grow{
+    0% {
+        transform:scaley(1.1);
+    }
+    360%{
+        transform:scaley(1.8);
+        background-color: darkturquoise;
+    }
+}
+.grower{
+    width:200px;
+    height:80px;
+    background: lightseagreen;
+    position: relative;
+}
+body{
+    display: grid;
+    place-items: center;
+
+}
+h1,p{
+    color:green;
+    text-align: center;
+}
+h2{
+    width:400px;
+    background-color: orange;
+    animation-name: text;
+    animation-duration: 3s;
+}
+#one{
+    animation-fill-mode: none;
+}
+#two{
+    animation-fill-mode: forwards;
+}
+#three{
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+}
+#four{
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+@keyframes text{
+    from{
+        margin-left: 0%;
+        background-color: #aaaaaa;
+    }
+    to{
+        margin-left: 60%;
+        background-color: #008000;
+    }
+}
